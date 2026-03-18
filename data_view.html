@@ -167,8 +167,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="528dd2e1" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display" data-execution_count="1">
+<div id="e874b853" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="19">
 <pre><code>DataTransformerRegistry.enable('default')</code></pre>
 </div>
 </div>
@@ -177,27 +177,27 @@ ul.task-list li input[type="checkbox"] {
 <p>¿Cuál es la fluctuación estacional de pv_production, wind_production y su suma combinada? Se plantea utilizar energia eolica y solar para la generacion de energia electrica limpia. Estas dos fuentes de generacion se caracterizan por la fluctuacion de la intensidad de generacion con el tiempo. Conocer los rangos de estas fluctuaciones es esencial para la planificacion de la distribucion y para su acoplamiento en la red. La visualizacion de las fluctuaciones se las realiza sobre una base mensual/estacional utilizando una grafica de lineas multi serie para resaltar la evolucion temporal y los patrones estacionales.</p>
 <section id="visualizacion-estacional--grafica-de-lineas-multi-series" class="level2">
 <h2 class="anchored" data-anchor-id="visualizacion-estacional--grafica-de-lineas-multi-series">Visualizacion estacional- grafica de lineas multi series</h2>
-<div id="38535bc8" class="cell" data-execution_count="4">
-<div class="cell-output cell-output-display" data-execution_count="4">
+<div id="d9179b13" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display" data-execution_count="22">
 
 <style>
-  #altair-viz-dbfddfdca0c340adb4caaa833d1b965c.vega-embed {
+  #altair-viz-09dae29b39974e32932f83d17b315782.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-dbfddfdca0c340adb4caaa833d1b965c.vega-embed details,
-  #altair-viz-dbfddfdca0c340adb4caaa833d1b965c.vega-embed details summary {
+  #altair-viz-09dae29b39974e32932f83d17b315782.vega-embed details,
+  #altair-viz-09dae29b39974e32932f83d17b315782.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-dbfddfdca0c340adb4caaa833d1b965c"></div>
+<div id="altair-viz-09dae29b39974e32932f83d17b315782"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-dbfddfdca0c340adb4caaa833d1b965c") {
-      outputDiv = document.getElementById("altair-viz-dbfddfdca0c340adb4caaa833d1b965c");
+    if (outputDiv.id !== "altair-viz-09dae29b39974e32932f83d17b315782") {
+      outputDiv = document.getElementById("altair-viz-09dae29b39974e32932f83d17b315782");
     }
 
     const paths = {
@@ -260,27 +260,27 @@ ul.task-list li input[type="checkbox"] {
 <p>¿Cual es la intensidad de producción por estación y hora? La fluctuacion intrinsica de las dos fuentes de generacion dan lugar al aparecimiento de valores optimos en ciertas horas del dia durante ciertas estaciones del anio dependiendo de las condiciones atmosfericas.La intensidad de generacion de las fuentes eolica y solar y de la suma combinada de ellas se las puede apreciar de forma eficaz a traves de un mapa de calor interactivo mostrando informacion de la fuente de generacion, estacion del anio, hora del dia, y produccion.</p>
 <section id="visualizacion-de-generacion-por-estacion-y-hora---heatmap" class="level2">
 <h2 class="anchored" data-anchor-id="visualizacion-de-generacion-por-estacion-y-hora---heatmap">Visualizacion de generacion por estacion y hora - Heatmap</h2>
-<div id="8b102386" class="cell" data-execution_count="5">
-<div class="cell-output cell-output-display" data-execution_count="5">
+<div id="a1eeef57" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display" data-execution_count="23">
 
 <style>
-  #altair-viz-e8b5ea969e664ff995802353967ea4e5.vega-embed {
+  #altair-viz-ff13693f981544b58b65965614fb8057.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-e8b5ea969e664ff995802353967ea4e5.vega-embed details,
-  #altair-viz-e8b5ea969e664ff995802353967ea4e5.vega-embed details summary {
+  #altair-viz-ff13693f981544b58b65965614fb8057.vega-embed details,
+  #altair-viz-ff13693f981544b58b65965614fb8057.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-e8b5ea969e664ff995802353967ea4e5"></div>
+<div id="altair-viz-ff13693f981544b58b65965614fb8057"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-e8b5ea969e664ff995802353967ea4e5") {
-      outputDiv = document.getElementById("altair-viz-e8b5ea969e664ff995802353967ea4e5");
+    if (outputDiv.id !== "altair-viz-ff13693f981544b58b65965614fb8057") {
+      outputDiv = document.getElementById("altair-viz-ff13693f981544b58b65965614fb8057");
     }
 
     const paths = {
@@ -339,27 +339,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="contribución-relativa-pv-vs-wind-estacional" class="level2">
 <h2 class="anchored" data-anchor-id="contribución-relativa-pv-vs-wind-estacional">Contribución relativa PV vs Wind (Estacional)</h2>
-<div id="7f4d85c5" class="cell" data-execution_count="6">
-<div class="cell-output cell-output-display" data-execution_count="6">
+<div id="daa0a280" class="cell" data-execution_count="6">
+<div class="cell-output cell-output-display" data-execution_count="24">
 
 <style>
-  #altair-viz-6f03771ce1454fc9a936f7d9a9609c1c.vega-embed {
+  #altair-viz-b83d115822b747df87059defaa0d78d4.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-6f03771ce1454fc9a936f7d9a9609c1c.vega-embed details,
-  #altair-viz-6f03771ce1454fc9a936f7d9a9609c1c.vega-embed details summary {
+  #altair-viz-b83d115822b747df87059defaa0d78d4.vega-embed details,
+  #altair-viz-b83d115822b747df87059defaa0d78d4.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-6f03771ce1454fc9a936f7d9a9609c1c"></div>
+<div id="altair-viz-b83d115822b747df87059defaa0d78d4"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-6f03771ce1454fc9a936f7d9a9609c1c") {
-      outputDiv = document.getElementById("altair-viz-6f03771ce1454fc9a936f7d9a9609c1c");
+    if (outputDiv.id !== "altair-viz-b83d115822b747df87059defaa0d78d4") {
+      outputDiv = document.getElementById("altair-viz-b83d115822b747df87059defaa0d78d4");
     }
 
     const paths = {
@@ -419,27 +419,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="relación-producción-vs-variables-meteorológicas" class="level2">
 <h2 class="anchored" data-anchor-id="relación-producción-vs-variables-meteorológicas">Relación producción vs variables meteorológicas</h2>
-<div id="f5e673da" class="cell" data-execution_count="9">
-<div class="cell-output cell-output-display" data-execution_count="9">
+<div id="51a320f1" class="cell" data-execution_count="9">
+<div class="cell-output cell-output-display" data-execution_count="27">
 
 <style>
-  #altair-viz-264cd759bde44bc2b2378ec5536528a9.vega-embed {
+  #altair-viz-69597c5e638d4206a95dc5479027db0e.vega-embed {
     width: 100%;
     display: flex;
   }
 
-  #altair-viz-264cd759bde44bc2b2378ec5536528a9.vega-embed details,
-  #altair-viz-264cd759bde44bc2b2378ec5536528a9.vega-embed details summary {
+  #altair-viz-69597c5e638d4206a95dc5479027db0e.vega-embed details,
+  #altair-viz-69597c5e638d4206a95dc5479027db0e.vega-embed details summary {
     position: relative;
   }
 </style>
-<div id="altair-viz-264cd759bde44bc2b2378ec5536528a9"></div>
+<div id="altair-viz-69597c5e638d4206a95dc5479027db0e"></div>
 <script type="text/javascript">
   var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-264cd759bde44bc2b2378ec5536528a9") {
-      outputDiv = document.getElementById("altair-viz-264cd759bde44bc2b2378ec5536528a9");
+    if (outputDiv.id !== "altair-viz-69597c5e638d4206a95dc5479027db0e") {
+      outputDiv = document.getElementById("altair-viz-69597c5e638d4206a95dc5479027db0e");
     }
 
     const paths = {
