@@ -70,6 +70,20 @@
     "text": "DataTransformerRegistry.enable('default')"
   },
   {
+    "objectID": "data_view.html#visualizacion-estacional--grafica-de-lineas-multi-series",
+    "href": "data_view.html#visualizacion-estacional--grafica-de-lineas-multi-series",
+    "title": "Fluctuación Estacional de Producción Renovable",
+    "section": "Visualizacion estacional- grafica de lineas multi series",
+    "text": "Visualizacion estacional- grafica de lineas multi series\n\n\n\n\n\n\n\n\n\nAnalisis\nLa gráfica revela patrones estacionales complementarios entre fuentes. La producción fotovoltaica maximiza en primavera-verano (abril-julio 2020: 15-20 MW) y minimiza en invierno (enero 2021: ~0 MW), siguiendo la disponibilidad solar. La producción eólica muestra mayor variabilidad, con picos en abril 2020 (~38 MW) y diciembre 2020 (~39 MW), y mínimos en septiembre 2020 (~8 MW) e enero 2021 (~6 MW). La producción total alcanza máximos en abril 2020 (~46 MW) y diciembre 2020 (~41 MW), evidenciando complementariedad estacional: cuando la solar disminuye (invierno), la eólica puede compensar parcialmente, optimizando el mix energético anual."
+  },
+  {
+    "objectID": "data_view.html#visualizacion-de-generacion-por-estacion-y-hora---heatmap",
+    "href": "data_view.html#visualizacion-de-generacion-por-estacion-y-hora---heatmap",
+    "title": "Fluctuación Estacional de Producción Renovable",
+    "section": "Visualizacion de generacion por estacion y hora - Heatmap",
+    "text": "Visualizacion de generacion por estacion y hora - Heatmap\n\n\n\n\n\n\n\n\n\nAnalisis\nEl heatmap revela que la intensidad de producción varía significativamente. Primavera presenta la mayor intensidad (azul oscuro), mientras que Verano muestra la menor. Las horas nocturnas y tempranas (0-6h, 20-22h) tienen producción mínima en todas las estaciones. Las ventanas óptimas de generación se concentran entre las 10:00 y 16:00 horas, donde los colores son más intensos. Específicamente, la media mañana en Primavera representa el pico máximo. Esto indica que la planificación energética debe priorizar la integración en red durante estas horas centrales del día para aprovechar al máximo la disponibilidad renovable cuando es más alta."
+  },
+  {
     "objectID": "data_view.html#contribución-relativa-pv-vs-wind-estacional",
     "href": "data_view.html#contribución-relativa-pv-vs-wind-estacional",
     "title": "Fluctuación Estacional de Producción Renovable",
